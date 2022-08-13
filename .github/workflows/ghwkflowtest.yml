@@ -27,4 +27,4 @@ jobs:
           TW_HANDLE: ${{ secrets.TW_HANDLE }}
           TW_INSTANCE: ${{ secrets.TW_INSTANCE }}
           TW_TOKEN: ${{ secrets.TW_TOKEN }}
-        run: twigs -h
+        run: twigs repo --repo .
