@@ -13,10 +13,10 @@ jobs:
         uses: actions/checkout@v2 # checkout the repository content to github runner
           
       - name: Install ThreatWorx discovery CLI twigs
-        uses: threatworx/actions/install-twigs@v1.0.0
+        uses: threatworx/actions/install-twigs@v1.0.1
 
       - name: Run ThreatWorx discovery CLI twigs
-        uses: threatworx/actions@v1.0.0
+        uses: threatworx/actions@v1.0.1
         env: 
           TW_HANDLE: ${{ secrets.TW_HANDLE }}
           TW_INSTANCE: ${{ secrets.TW_INSTANCE }}
