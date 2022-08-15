@@ -23,5 +23,4 @@ jobs:
           TW_TOKEN: ${{ secrets.TW_TOKEN }}
         with:
           args: -vv
-          mode: repo
           mode_args: --repo ${{ github.workspace }}
